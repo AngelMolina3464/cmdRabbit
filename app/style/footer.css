@@ -21,6 +21,21 @@
     flex-wrap: wrap;
   }
 }
+@media only screen and (max-width: 320px) {
+  .footer__Container__Postion  {
+    flex-direction: column;
+    column-gap: 15px;
+  }
+  .footer__Container__Postion p {
+    font-size: 10px;
+  }
+  .footer__subContainer__images {
+    margin: 5px 0px;
+  }
+  .footer__subContainer__images img{
+    width: 20px;
+  }
+}
 .footer__subContainer__images {
   display: flex;
   column-gap: 7px;
