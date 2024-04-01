@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  background-color: rgb(10, 10, 10);
+}
+body {
+  color: #8048da;
+}
+
+button {
+  color: #8048da;
+  padding: 7px 12px;
+  border-radius: 5px 10px;
+  background-color: #8048da06;
+  border: #8048da solid 2px;
+  margin: 8px 4px;
+  cursor: pointer;
+}
+
+button:focus {
+  transition: ease-out 200ms;
+  color: #8048da9f;
+  border: 3px #8048dad8;
+  box-shadow: 0px 0px 5px #8048da;
+}
+
+label {
+  margin: 8px 4px;
+}
+
+a {
+  text-decoration: none;
+  margin: 8px 4px;
+  color: #a890c4;
+}
+a:hover {
+  transition: ease-in-out 200ms;
+  color: #fefefecd;
+}
+input {
+  margin: 8px 4px;
+  padding: 8px 10px;
+  background-color: #7435d89c;
+  border: none;
+  border-radius: 5px;
+  color: rgba(254, 254, 254, 0.633);
+}
+
+input:focus {
+  color: #fefefecd;
+  font-weight: bold;
+}
+
+h1::selection {
+  background-color: #3e2281;
+  color: #fefefecd;
+}
+
+h2::selection {
+  background-color: #3e2281;
+  color: #fefefecd;
+}
+
+h3::selection {
+  background-color: #3e2281;
+  color: #fefefecd;
+}
+h4::selection {
+  background-color: #3e2281;
+  color: #fefefecd;
+}
+
+p::selection {
+  background-color: #3e2281;
+  color: #fefefecd;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 5px 10px;
+}
+hr {
+  margin: 0 auto;
+  background-color: #8048da;
+  height: 2px;
+  border: none;
+  margin: 5px 0px;
+}
+

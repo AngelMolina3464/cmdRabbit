@@ -1,0 +1,16 @@
+.WallInt__Container {
+  width: 85%;
+  margin: 25px auto;
+  box-shadow: 0px 0px 8px #8048da;
+  border-radius: 10px;
+  padding: 20px 20px;
+  max-height: 400px;
+  overflow: hidden;
+}
+.WallInt__buttoner__Container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+
+}

@@ -1,0 +1,31 @@
+.footer__Container {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.footer__Container img {
+  width: 25px;
+}
+
+.footer__Container__Postion {
+  font-size: 14px;
+  margin-right: 10px;
+  padding: 5px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 10px;
+}
+@media only screen and (max-width: 760px) {
+  .footer__Container__Postion {
+    flex-wrap: wrap;
+  }
+}
+.footer__subContainer__images {
+  display: flex;
+  column-gap: 7px;
+}
+.footer__Container__Postion [src="./nextjs.png"] {
+  background-color: rgb(245, 245, 240);
+  border-radius: 8px;
+}
