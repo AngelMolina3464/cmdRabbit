@@ -17,6 +17,12 @@
   column-gap: 10px;
 }
 @media only screen and (max-width: 760px) {
+  .footer__Container {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+  }
+
   .footer__Container__Postion {
     flex-wrap: wrap;
   }
