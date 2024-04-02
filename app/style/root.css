@@ -77,6 +77,11 @@ p::selection {
   color: #fefefecd;
 }
 
+a::selection {
+  background-color: #3e2281;
+  color: #fefefecd;
+}
+
 h1,
 h2,
 h3,
@@ -92,4 +97,3 @@ hr {
   border: none;
   margin: 5px 0px;
 }
-

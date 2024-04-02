@@ -1,7 +1,5 @@
-import { Inter } from "next/font/google";
 import NavBar__Static from "../components/navBar__menu";
-
-const inter = Inter({ subsets: ["latin"] });
+import Craft__Table from "../components/craftTable__main";
 
 export const metadata = {
   title: "Rabitt App",
@@ -12,7 +10,7 @@ export default function MenuLayout({ children }) {
   return (
     <>
       <NavBar__Static />
-      <section className={inter.className}></section>
+      <Craft__Table />
     </>
   );
 }

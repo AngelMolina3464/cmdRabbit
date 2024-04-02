@@ -14,7 +14,7 @@ export default function Wall() {
       </section>
 
       <section className="WallInt__buttoner__Container">
-        <Link href="/login">Acceder</Link>
+        <Link href="/menu">Acceder</Link>
         <Link href="/contacto">Contacto</Link>
 
       </section>
