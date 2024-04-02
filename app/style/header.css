@@ -1,0 +1,8 @@
+.header__Container {
+  display: flex;
+  background-color: #3d3a5f;
+  color: rgb(244, 244, 245);
+}
+.header__Container img {
+  width: 30px;
+}

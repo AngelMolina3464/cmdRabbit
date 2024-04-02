@@ -4,7 +4,6 @@ export default function Footer_Main() {
   return (
     <>
       <footer className="footer__Container">
-        <hr />
         <div className="footer__Container__Postion">
           <p>Tecnologias en Uso</p>
           <div className="footer__subContainer__images">
