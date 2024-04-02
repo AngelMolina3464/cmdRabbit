@@ -16,7 +16,6 @@ export default function Wall() {
       <section className="WallInt__buttoner__Container">
         <Link href="/menu">Acceder</Link>
         <Link href="/contacto">Contacto</Link>
-
       </section>
     </>
   );

@@ -6,24 +6,24 @@ html {
   background-color: rgb(23, 22, 22);
 }
 body {
-  color: #8048da;
+  color: #ede8f5;
 }
 
 button {
-  color: #8048da;
+  color: #8b9fc5;
   padding: 7px 12px;
   border-radius: 5px 10px;
   background-color: #8048da06;
-  border: #8048da solid 2px;
+  border: #8b9fc5 solid 2px;
   margin: 8px 4px;
   cursor: pointer;
 }
 
 button:focus {
   transition: ease-out 200ms;
-  color: #8048da9f;
+  color: #4c5c7a;
   border: 3px #8048dad8;
-  box-shadow: 0px 0px 5px #8048da;
+  box-shadow: 0px 0px 5px #4c5c7a;
 }
 
 label {
@@ -33,11 +33,11 @@ label {
 a {
   text-decoration: none;
   margin: 8px 4px;
-  color: #a890c4;
+  color: #ede8f5;
 }
 a:hover {
   transition: ease-in-out 200ms;
-  color: #fefefecd;
+   color: #97a2b5;
 }
 input {
   margin: 8px 4px;
@@ -92,7 +92,7 @@ h6 {
 }
 hr {
   margin: 0 auto;
-  background-color: #8048da;
+  background-color: #4c5c7a;
   height: 2px;
   border: none;
   margin: 5px 0px;
